@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat Puasanya, Dane!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message-box">
+            <h2>Hi Dane, semangat sayang puasanya!</h2>
+            <button id="clickBtn" onclick="showNiat()">Click Here</button>
+        </div>
+        
+        <!-- Niat Buka Puasa -->
+        <div id="niat-container" class="niat-container hidden">
+            <div class="niat">
+                <h3>Doa Niat Buka Puasa</h3>
+                <p class="arabic">نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ رَمَضَانَ لِلَّهِ تَعَالَى</p>
+                <p class="transliteration">"Nawaitu shauma ghadin 'an ada'i fardhi ramadhana lillahi ta'ala"</p>
+                <p class="translation">"Saya niat puasa besok untuk menunaikan kewajiban bulan Ramadan karena Allah Ta'ala."</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
